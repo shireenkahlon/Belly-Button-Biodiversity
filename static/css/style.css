@@ -1,0 +1,9 @@
+body{
+    /* background: linear-gradient(yellow, red); */
+    background: linear-gradient(to bottom, #ff99cc 0%, #33ccff 100%)
+}
+.jumbotron{
+    background-image: url('../images/bacteria_pink.png');
+    background-size: 100% 100%;
+    text-align: center;
+}
