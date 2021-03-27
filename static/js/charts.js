@@ -140,7 +140,7 @@ function buildCharts(sample) {
        value: wfreqFloat,
        type: 'indicator',
        mode: 'gauge+number',
-       title: {text: 'Scrubs Per Week'},
+       title: {text: 'Belly Button Washing Frequency'},
        gauge: {
         axis: { range: [null, 10], tickwidth: 1, tickcolor: 'RGB(23, 23, 23)'},
         steps: [
@@ -157,7 +157,6 @@ function buildCharts(sample) {
     var gaugeLayout = { 
       width: 600,
       height: 500,
-      title: {text: 'Belly Button Washing Frequency'},
       plot_bgcolor: "rgba(0,0,0,0)",
       paper_bgcolor: "rgba(0,0,0,0)",
       font: {
